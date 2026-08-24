@@ -2,40 +2,70 @@
 
 <div align="center">
 
-# Jay Prakash Sonkar
+# iamjpsonkar
 
-### Building the tools behind better software.
+### Jay Prakash Sonkar · Senior Backend Engineer
 
-Developer tooling · Local-first AI · Platform engineering · Practical learning systems
+Payment infrastructure by profession. Developer platforms by instinct.
 
 [![Portfolio](https://img.shields.io/badge/Explore_my_portfolio-6C63FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://iamjpsonkar.github.io/portfolio/)
+[![Résumé](https://img.shields.io/badge/View_my_résumé-1264A3?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iamjpsonkar.github.io/portfolio/resume/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamjpsonkar/)
 [![X](https://img.shields.io/badge/Follow_@iamjpsonkar-111111?style=for-the-badge&logo=x&logoColor=white)](https://x.com/iamjpsonkar)
-[![GitHub](https://img.shields.io/badge/JaySoft_projects-0D1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iamjpsonkar?tab=repositories)
 
 </div>
 
 ---
 
-## I turn recurring engineering pain into tools
+## I engineer reliability—and turn the repeated pain into tools
 
-I am a Python-first software developer with a growing focus on **AI-native developer experience**, **local-first systems**, and **platform automation**. I like projects that shorten feedback loops: understand a codebase faster, review a change locally, mock an integration, generate useful test data, or spin up infrastructure without ceremony.
+I am an **SDE II at Fynd**, working on payment and refund infrastructure where correctness, observability, security, and graceful failure are product features. My professional work spans gateway integrations, checkout flows, COD refunds, CVV-less transactions, aggregator outage handling, encryption-key rotation, and runtime modernization.
 
-My GitHub is the record of that progression—**144 repositories**, **15 primary languages**, and experiments ranging from desktop utilities and algorithms to full developer platforms.
+Outside the critical path, I build **AI-native developer experience**, **local-first systems**, and **platform automation** under the JaySoft name. My GitHub records that progression across **144 repositories** and **15 primary languages**—from algorithms and desktop utilities to full developer platforms.
+
+| 499 tasks delivered | 97.8% completion | 7.4K+ work commits | 15+ payment integrations | 7× company recognition |
+|:---:|:---:|:---:|:---:|:---:|
 
 ```text
 learn the primitive  →  build the product  →  automate the friction  →  share the system
 ```
 
-## Flagship systems
+## Start here: [JSAT · JaySoft AI Tools](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
+
+> **Codebase intelligence for AI sessions—index once, query forever, and use it with any AI.**
+
+JSAT builds a persistent graph of functions, classes, services, endpoints, database tables, Kafka topics, and their relationships. It exposes that context through a **CLI**, **Python SDK**, and **MCP server** for Claude Code, Codex, Cursor, Gemini CLI, Ollama, LM Studio, and other compatible tools.
+
+[![PyPI](https://img.shields.io/pypi/v/jsat?style=flat-square&color=55d8ff)](https://pypi.org/project/jsat/)
+[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-a478ff?style=flat-square)](https://github.com/iamjpsonkar/JaySoft-AI_Tools/blob/main/LICENSE)
+[![MCP](https://img.shields.io/badge/Interface-MCP-ffca74?style=flat-square)](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
+
+```bash
+pip install jsat
+jsat index .
+jsat crack "redesign the payment retry system"
+```
+
+**Why it exists:** every AI session should not begin by rediscovering the same architecture. JSAT preserves that understanding and makes it queryable.
+
+## More flagship systems
 
 | | Project | The engineering problem it solves |
 |:--:|---|---|
-| 🧠 | **[JSAT · JaySoft AI Tools](https://github.com/iamjpsonkar/JaySoft-AI_Tools)** | Builds a persistent graph of a codebase so AI tools can understand functions, services, APIs, tables, and relationships without starting from zero every session. Ships as a CLI, Python SDK, and MCP server. |
 | 🔀 | **[PRView](https://github.com/iamjpsonkar/PRView-by-JaySoft)** | Brings a complete pull-request workflow to localhost: multi-mode diffs, threaded comments, reviews, conflict resolution, and merge strategies without a hosted forge. |
 | 🧪 | **[PED Tools](https://github.com/iamjpsonkar/JaySoft-PEDtool)** | Combines an HTTP proxy, stateful mock server, traffic inspector, conditional responses, Postman export, and AES utilities for integration-heavy development. |
 | 🎲 | **[DBMocker](https://github.com/iamjpsonkar/JaySoft-DBMocker)** | Inspects real SQL schemas and generates realistic test data while respecting foreign keys, uniqueness, checks, patterns, and referential integrity. |
 | 🖥️ | **[JaySoft LocalAI](https://github.com/iamjpsonkar/JaySoft-LocalAI)** | Packages a local-first coding agent around a managed Ollama runtime for modest Linux hardware, keeping core inference and repository work offline. |
 | ☁️ | **[Cloud-Learnings](https://github.com/iamjpsonkar/Cloud-Learnings)** | A vendor-neutral cloud, DevOps, security, and SRE knowledge system with structured paths, Docker labs, and an advanced FastAPI + React lab platform. |
+
+## Professional trajectory
+
+| Period | Role | Focus |
+|---|---|---|
+| **2025—now** | Software Development Engineer II · Fynd | High-impact payment infrastructure, reliability, security, integrations, and platform evolution |
+| **2022—2025** | Software Development Engineer · Fynd | End-to-end payment and refund ownership across a multi-repository platform |
+| **2020—2022** | System Engineer · Digital · TCS | Python systems and Yocto-based image upgrades for telecom infrastructure |
 
 ## The JaySoft toolbox
 
