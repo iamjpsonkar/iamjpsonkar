@@ -37,12 +37,13 @@ These are the projects I would start with to understand my current engineering i
 
 **Persistent codebase intelligence for AI-assisted development.**
 
-JSAT is designed to help AI coding tools work with a durable understanding of a repository instead of repeatedly rediscovering its architecture. It models code entities and relationships and makes that context available through developer-facing interfaces.
+JSAT builds persistent codebase context so AI coding tools can inspect a repository without repeatedly rediscovering its architecture. The project provides a CLI, Python SDK, and MCP server, with a graph-backed index and workflows for repository analysis.
 
-- CLI and Python-oriented workflows
-- Repository indexing and architecture exploration
-- MCP integration for compatible AI clients
-- A focus on reusable context across AI sessions
+- **53 slash commands** covering repository exploration and engineering workflows
+- **JSAT Studio:** browser UI and optional terminal UI
+- **Live session dashboard** for inspecting tool activity and results
+- Multiple AI execution paths, including supported local and hosted providers
+- **[Documentation](https://iamjpsonkar.github.io/JaySoft-AI_Tools/)** · [PyPI](https://pypi.org/project/jsat/) · [Source](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
 
 [![PyPI](https://img.shields.io/pypi/v/jsat?style=flat-square&color=55d8ff)](https://pypi.org/project/jsat/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
