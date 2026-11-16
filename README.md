@@ -1,139 +1,140 @@
-<img src="./assets/jaysoft-systems-banner.png" alt="A connected landscape of code, local compute, databases, containers, and cloud infrastructure" width="100%">
-
 <div align="center">
 
-# iamjpsonkar
+<img src="./assets/jaysoft-systems-banner.png" alt="JaySoft systems: software, developer tooling, local AI and infrastructure" width="100%">
 
-### Jay Prakash Sonkar · Senior Backend Engineer
+# Jay Prakash Sonkar
 
-Payment infrastructure by profession. Developer platforms by instinct.
+### Senior Backend Engineer · Payment Infrastructure · Developer Tooling · Local-first AI
 
-[![Portfolio](https://img.shields.io/badge/Explore_my_portfolio-6C63FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://iamjpsonkar.github.io/portfolio/)
-[![Résumé](https://img.shields.io/badge/View_my_résumé-1264A3?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iamjpsonkar.github.io/portfolio/resume/)
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamjpsonkar/)
-[![X](https://img.shields.io/badge/Follow_@iamjpsonkar-111111?style=for-the-badge&logo=x&logoColor=white)](https://x.com/iamjpsonkar)
+I build reliable backend systems for real-world payment flows—and developer tools that make complex engineering work easier.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6C63FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://iamjpsonkar.github.io/portfolio/)
+[![Resume](https://img.shields.io/badge/Resume-View-1264A3?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iamjpsonkar.github.io/portfolio/resume/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iamjpsonkar/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iamjpsonkar)
 
 </div>
 
 ---
 
-## I engineer reliability—and turn the repeated pain into tools
+## What I do
 
-I am an **SDE II at Fynd**, working on payment and refund infrastructure where correctness, observability, security, and graceful failure are product features. My professional work spans gateway integrations, checkout flows, COD refunds, CVV-less transactions, aggregator outage handling, encryption-key rotation, and runtime modernization.
+I am a backend engineer working at the intersection of **payments, distributed systems, developer experience, and infrastructure**.
 
-Outside the critical path, I build **AI-native developer experience**, **local-first systems**, and **platform automation** under the JaySoft name. My GitHub records that progression across **144 repositories** and **15 primary languages**—from algorithms and desktop utilities to full developer platforms.
+In my professional work, I focus on payment and refund systems: integrating payment gateways, building checkout and refund flows, improving reliability, handling provider failures, and evolving services safely.
 
-| 499 tasks delivered | 97.8% completion | 7.4K+ work commits | 15+ payment integrations | 7× company recognition |
-|:---:|:---:|:---:|:---:|:---:|
+Outside work, I build under the **JaySoft** umbrella. My projects explore codebase intelligence for AI assistants, local-first developer workflows, infrastructure automation, and practical engineering utilities.
 
-```text
-learn the primitive  →  build the product  →  automate the friction  →  share the system
-```
+My approach is simple:
 
-## Start here: [JSAT · JaySoft AI Tools](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
+> Understand the system deeply. Make the critical path reliable. Turn recurring engineering friction into tools.
 
-> **Codebase intelligence for AI sessions—index once, query forever, and use it with any AI.**
+## Featured work
 
-JSAT builds a persistent graph of functions, classes, services, endpoints, database tables, Kafka topics, and their relationships. It exposes that context through a **CLI**, **Python SDK**, and **MCP server** for Claude Code, Codex, Cursor, Gemini CLI, Ollama, LM Studio, and other compatible tools.
+These are the projects I would start with to understand my current engineering interests.
+
+### 1. [JSAT — JaySoft AI Tools](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
+
+**Persistent codebase intelligence for AI-assisted development.**
+
+JSAT builds persistent codebase context so AI coding tools can inspect a repository without repeatedly rediscovering its architecture. The project provides a CLI, Python SDK, and MCP server, with a graph-backed index and workflows for repository analysis.
+
+- **53 slash commands** covering repository exploration and engineering workflows
+- **JSAT Studio:** browser UI and optional terminal UI
+- **Live session dashboard** for inspecting tool activity and results
+- Multiple AI execution paths, including supported local and hosted providers
+- **[Documentation](https://iamjpsonkar.github.io/JaySoft-AI_Tools/)** · [PyPI](https://pypi.org/project/jsat/) · [Source](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
 
 [![PyPI](https://img.shields.io/pypi/v/jsat?style=flat-square&color=55d8ff)](https://pypi.org/project/jsat/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-a478ff?style=flat-square)](https://github.com/iamjpsonkar/JaySoft-AI_Tools/blob/main/LICENSE)
-[![MCP](https://img.shields.io/badge/Interface-MCP-ffca74?style=flat-square)](https://github.com/iamjpsonkar/JaySoft-AI_Tools)
 
 ```bash
 pip install jsat
 jsat index .
-jsat crack "redesign the payment retry system"
 ```
 
-**Why it exists:** every AI session should not begin by rediscovering the same architecture. JSAT preserves that understanding and makes it queryable.
+### 2. [JaySoft LocalAI](https://github.com/iamjpsonkar/JaySoft-LocalAI)
 
-## More flagship systems
+**A local-first environment for working with AI models.**
 
-| | Project | The engineering problem it solves |
-|:--:|---|---|
-| 🔀 | **[PRView](https://github.com/iamjpsonkar/PRView-by-JaySoft)** | Brings a complete pull-request workflow to localhost: multi-mode diffs, threaded comments, reviews, conflict resolution, and merge strategies without a hosted forge. |
-| 🧪 | **[PED Tools](https://github.com/iamjpsonkar/JaySoft-PEDtool)** | Combines an HTTP proxy, stateful mock server, traffic inspector, conditional responses, Postman export, and AES utilities for integration-heavy development. |
-| 🎲 | **[DBMocker](https://github.com/iamjpsonkar/JaySoft-DBMocker)** | Inspects real SQL schemas and generates realistic test data while respecting foreign keys, uniqueness, checks, patterns, and referential integrity. |
-| 🖥️ | **[JaySoft LocalAI](https://github.com/iamjpsonkar/JaySoft-LocalAI)** | Packages a local-first coding agent around a managed Ollama runtime for modest Linux hardware, keeping core inference and repository work offline. |
-| ☁️ | **[Cloud-Learnings](https://github.com/iamjpsonkar/Cloud-Learnings)** | A vendor-neutral cloud, DevOps, security, and SRE knowledge system with structured paths, Docker labs, and an advanced FastAPI + React lab platform. |
+Explores running AI-assisted development workflows with locally hosted models and a managed Ollama-based runtime. The goal is to make experimentation and development possible while keeping more of the workflow on the developer's own machine.
 
-## Professional trajectory
+### 3. [Cloud-Learnings](https://github.com/iamjpsonkar/Cloud-Learnings)
+
+**Hands-on learning for cloud, DevOps, and platform engineering.**
+
+A structured engineering knowledge base covering cloud concepts, containers, infrastructure, security, and practical labs. It reflects the belief that learning is strongest when concepts are connected to runnable systems.
+
+### 4. [SystemDesign_Learnings](https://github.com/iamjpsonkar/SystemDesign_Learnings)
+
+**A growing notebook for system design.**
+
+A place to organize architecture concepts, design trade-offs, and the building blocks behind scalable backend services.
+
+### 5. [JaySoft-DevBox](https://github.com/iamjpsonkar/JaySoft-DevBox)
+
+**Reproducible local development environments.**
+
+A practical repository focused on simplifying the setup of local services and development dependencies.
+
+### 6. [JaySoft-KafkaDockerSetup](https://github.com/iamjpsonkar/JaySoft-KafkaDockerSetup)
+
+**Kafka environments with containers.**
+
+A hands-on setup for learning and experimenting with Kafka using Docker-based infrastructure.
+
+## Engineering focus
+
+| Area | What I work on |
+|---|---|
+| Backend engineering | Python services, API design, data modelling, integrations, service reliability |
+| Payments | Checkout, payment gateway integrations, refunds, payment methods, failure handling |
+| Distributed systems | Messaging, asynchronous workflows, service boundaries, consistency and resilience |
+| Developer tooling | CLIs, automation, repository workflows, code intelligence |
+| AI engineering | Local model runtimes, MCP, AI-assisted developer workflows |
+| Infrastructure | Docker, Kubernetes, Linux, CI/CD, cloud-native foundations |
+| Data | SQL, relational databases, Redis, schema design and migrations |
+
+## Professional journey
 
 | Period | Role | Focus |
 |---|---|---|
-| **2025—now** | Software Development Engineer II · Fynd | High-impact payment infrastructure, reliability, security, integrations, and platform evolution |
-| **2022—2025** | Software Development Engineer · Fynd | End-to-end payment and refund ownership across a multi-repository platform |
-| **2020—2022** | System Engineer · Digital · TCS | Python systems and Yocto-based image upgrades for telecom infrastructure |
+| 2025 – Present | Software Development Engineer II · Fynd | Payment infrastructure, reliability, security, gateway integrations and platform evolution |
+| 2022 – 2025 | Software Development Engineer · Fynd | Backend development across payment, checkout and refund systems |
+| 2020 – 2022 | System Engineer · TCS | Python systems and Yocto-based image upgrades for telecom infrastructure |
 
-## The JaySoft toolbox
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Developer experience
-
-- [JaySoft-AI_Tools](https://github.com/iamjpsonkar/JaySoft-AI_Tools) — codebase intelligence for AI
-- [PRView-by-JaySoft](https://github.com/iamjpsonkar/PRView-by-JaySoft) — local pull-request workflows
-- [FastCopy](https://github.com/iamjpsonkar/FastCopy) — cross-platform native file copying
-- [JaySoft-DBMocker](https://github.com/iamjpsonkar/JaySoft-DBMocker) — relational test-data generation
-
-</td>
-<td width="50%" valign="top">
-
-### Systems & infrastructure
-
-- [JaySoft-DevBox](https://github.com/iamjpsonkar/JaySoft-DevBox) — reproducible local service stacks
-- [JaySoft-KafkaDockerSetup](https://github.com/iamjpsonkar/JaySoft-KafkaDockerSetup) — operable Kafka environments
-- [Cloud-Learnings](https://github.com/iamjpsonkar/Cloud-Learnings) — cloud engineering paths and labs
-- [SystemDesign_Learnings](https://github.com/iamjpsonkar/SystemDesign_Learnings) — system design notebook
-
-</td>
-</tr>
-</table>
-
-## Technology constellation
+## Technology
 
 <div align="center">
 
-[![Technology stack](https://skillicons.dev/icons?i=python,rust,ts,js,fastapi,flask,django,nodejs,react,vue,docker,kubernetes,postgres,kafka,linux,git,githubactions&perline=9)](https://skillicons.dev)
-
-**Core:** Python · FastAPI · Flask · Django · SQL · REST · Git<br>
-**Systems:** Docker · Kafka · PostgreSQL · Linux · CI/CD · Cloud<br>
-**Expanding:** Rust · TypeScript · React · Vue · local LLM runtimes · MCP
+[![Technology stack](https://skillicons.dev/icons?i=python,js,ts,cpp,java,fastapi,flask,django,nodejs,react,docker,kubernetes,postgres,mysql,redis,kafka,linux,git,githubactions&perline=9)](https://skillicons.dev)
 
 </div>
 
-## How the portfolio evolved
+**Backend:** Python · Flask · Django · FastAPI · Sanic · REST APIs  
+**Data & messaging:** PostgreSQL · MySQL · Redis · Kafka · SQLAlchemy  
+**Infrastructure:** Docker · Kubernetes · Linux · Bash · CI/CD  
+**Languages & tooling:** Python · JavaScript · TypeScript · C/C++ · Java · Git  
+**Exploring and building:** Rust · local LLMs · MCP · AI developer tools
 
-<details>
-<summary><strong>Open the build log</strong></summary>
+## Learning in public
 
-<br>
+I maintain practical learning repositories across backend engineering and computer science:
 
-| Era | Focus | Evidence |
-|---|---|---|
-| **Foundations** | C, C++, Java, algorithms, games, desktop Python | [DS_ALGO](https://github.com/iamjpsonkar/DS_ALGO), [JaySoft-Paint](https://github.com/iamjpsonkar/JaySoft-Paint), [JaySoft-ImageViewer](https://github.com/iamjpsonkar/JaySoft-ImageViewer) |
-| **Applications** | Flask, Django, Sanic, SQL, frontend frameworks | [MyBlog](https://github.com/iamjpsonkar/MyBlog), [SanicCRUD_BMS](https://github.com/iamjpsonkar/SanicCRUD_BMS), [JaySoft_OCR](https://github.com/iamjpsonkar/JaySoft_OCR) |
-| **Infrastructure** | Containers, Kafka, databases, automation, system design | [JaySoft-DevBox](https://github.com/iamjpsonkar/JaySoft-DevBox), [JaySoft-KafkaDocker](https://github.com/iamjpsonkar/JaySoft-KafkaDocker), [Cloud-Learnings](https://github.com/iamjpsonkar/Cloud-Learnings) |
-| **Developer platforms** | Code intelligence, local AI, review systems, integration tooling | [JSAT](https://github.com/iamjpsonkar/JaySoft-AI_Tools), [PRView](https://github.com/iamjpsonkar/PRView-by-JaySoft), [PED Tools](https://github.com/iamjpsonkar/JaySoft-PEDtool) |
+- [Learnings](https://github.com/iamjpsonkar/Learnings) — structured technical notes and hands-on learning
+- [Cloud-Learnings](https://github.com/iamjpsonkar/Cloud-Learnings) — cloud and infrastructure
+- [SystemDesign_Learnings](https://github.com/iamjpsonkar/SystemDesign_Learnings) — architecture and system design
 
-</details>
+I value learning through implementation: build a small working system, understand its failure modes, document the trade-offs, and iterate.
 
-## Learning is part of the product
-
-I keep working notebooks for [machine learning](https://github.com/iamjpsonkar/ML_Learnings), [MERN](https://github.com/iamjpsonkar/MERN_Learnings), [PostgreSQL](https://github.com/iamjpsonkar/PostgreSQL_Learnings), [interview preparation](https://github.com/iamjpsonkar/InterviewPrep_Learnings), and [cloud engineering](https://github.com/iamjpsonkar/Cloud-Learnings). They show the path, including the unfinished edges—not only the polished result.
-
-> **My bias:** build something useful, understand why it works, then make the next person's path shorter.
-
----
+## Explore
 
 <div align="center">
 
-### Have an interesting developer-tooling or platform problem?
+[**Portfolio & case studies**](https://iamjpsonkar.github.io/portfolio/) · [**Résumé**](https://iamjpsonkar.github.io/portfolio/resume/) · [**Repositories**](https://github.com/iamjpsonkar?tab=repositories) · [**LinkedIn**](https://www.linkedin.com/in/iamjpsonkar/)
 
-[Start with the projects](https://github.com/iamjpsonkar?tab=repositories) · [See the portfolio](https://iamjpsonkar.github.io/portfolio/) · [Say hello on X](https://x.com/iamjpsonkar)
+### Interested in backend platforms, payment systems, or developer tooling?
+
+I enjoy building systems that remove friction for engineers and make important workflows more dependable.
 
 </div>
