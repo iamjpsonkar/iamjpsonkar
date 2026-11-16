@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/jaysoft-systems-banner.png" alt="JaySoft systems: software, developer tooling, local AI and infrastructure" width="100%">
+<img src="./assets/jaysoft-profile-banner.svg" alt="Jay Prakash Sonkar — backend systems, developer tools, payment infrastructure, and local-first AI" width="100%">
 
 # Jay Prakash Sonkar
 
