@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/jaysoft-profile-banner.svg" alt="Jay Prakash Sonkar — backend systems, developer tools, payment infrastructure, and local-first AI" width="100%">
+<img src="./assets/jaysoft-profile-banner.svg" alt="Jay Prakash Sonkar — software engineer, backend developer, and systems builder" width="100%">
 
 # Jay Prakash Sonkar
 
-### Backend Engineer · Payment Infrastructure · Developer Tooling · Local-first AI
+### Software Engineer · Backend Developer · Systems Builder
 
-I build dependable backend systems for payment and refund workflows, and developer tools that reduce friction in complex engineering work.
+I turn ideas into reliable, scalable, real-world systems—from payment infrastructure and backend platforms to tools that make engineering work better.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-6C63FF?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://iamjpsonkar.github.io/portfolio/)
 [![Resume](https://img.shields.io/badge/Resume-View-1264A3?style=for-the-badge&logo=readthedocs&logoColor=white)](https://iamjpsonkar.github.io/portfolio/resume/)
